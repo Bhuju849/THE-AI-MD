@@ -27,7 +27,7 @@ let dec = `*👾 𝐀𝐈 MD Repastitory Information*
 
 ©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢʜᴏꜱᴛ-ᴍᴅ
 `
-await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/q0w46d.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://files.catbox.moe/q0w46d.jpg`}, 
 
 }catch(e){
 console.log(e)
